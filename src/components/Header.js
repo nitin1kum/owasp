@@ -23,7 +23,6 @@ const Header = () => {
               </ul>
             </li>
             <li className='nav-item border-b-4 border-transparent px-2 hover:border-white transition-all py-1 duration-500'><Link to='/mission'>Our Mission</Link></li>
-            <li className='nav-item border-b-4 border-transparent px-2 hover:border-white transition-all py-1 duration-500'><Link to='/about'>About Us</Link></li>
             <li className='nav-item border-b-4 border-transparent px-2 hover:border-white transition-all py-1 duration-500'><Link to='/team'>Team</Link></li>
             <li className='nav-item border-b-4 border-transparent px-2 hover:border-white transition-all py-1 duration-500'><Link to='/project'>Projects</Link></li>
             <li className='nav-item border-b-4 border-transparent px-2 hover:border-white transition-all py-1 duration-500'><Link to='/news'>News</Link></li>
@@ -45,7 +44,6 @@ const Header = () => {
               </ul>
             </li>
             <li className='nav-item border-b-4 text-left border-transparent px-2'><Link to='/mission'>Our Mission</Link></li>
-            <li className='nav-item border-b-4 text-left border-transparent px-2'><Link to='/about'>About Us</Link></li>
             <li className='nav-item border-b-4 text-left border-transparent px-2'><Link to='/team'>Team</Link></li>
             <li className='nav-item border-b-4 text-left border-transparent px-2'><Link to='/project'>Projects</Link></li>
             <li className='nav-item border-b-4 text-left border-transparent px-2'><Link to='/news'>News</Link></li>

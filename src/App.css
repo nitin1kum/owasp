@@ -178,3 +178,15 @@ html {
 .query-text{
     font-family: 'Lobster', sans-serif;
 }
+
+.work-button{
+    background-color: white !important;
+    color: black;
+}
+
+.profile-card{
+    border-radius: 5px !important;
+}
+.profile-card:hover .team-member-contact{
+    opacity: 1;
+}

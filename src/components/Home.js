@@ -3,6 +3,8 @@ import UpcomingEv from './UpcomingEv'
 import News from './News';
 import Faqs from './Faqs';
 import Projects from './Projects';
+import Team from './Team';
+import Mission from './Mission';
 
 const Home = () => {
   const [text, setText] = useState('')
@@ -54,6 +56,12 @@ const Home = () => {
           <UpcomingEv />
         </div>
       </section>
+      <section className="mission-section w-full">
+        <div className=' bg-gradient-to-bl from-black to-blue-950 text-center whitespace-nowrap text-white py-6 font-semibold'>Our Mission</div>
+        <div>
+          <Mission />
+        </div>
+      </section>
       <section className="projects-section w-full">
         <div className=' bg-gradient-to-bl from-black to-blue-950 text-center whitespace-nowrap text-white py-6 font-semibold'>Projects</div>
         <div>
@@ -64,6 +72,12 @@ const Home = () => {
         <div className=' bg-gradient-to-bl from-black to-blue-950 text-center whitespace-nowrap text-white py-6 font-semibold'>News</div>
         <div>
           <News />
+        </div>
+      </section>
+      <section className="About-section w-full">
+        <div className=' bg-gradient-to-bl from-black to-blue-950 text-center whitespace-nowrap text-white py-6 font-semibold'>About Us</div>
+        <div>
+          <Team />
         </div>
       </section>
       <section className="faqs-section w-full">
