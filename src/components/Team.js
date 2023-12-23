@@ -26,7 +26,7 @@ const Team = () => {
           <span className='font-semibold inline-block work-name px-6 py-2 mx-3 ronded-full text-sm glass-morph text-white' onClick={e => handleClick(e)}>Web Dev</span>
           <span className='font-semibold inline-block work-name px-6 py-2 mx-3 ronded-full text-sm glass-morph text-white' onClick={e => handleClick(e)}>Web Dev</span>
         </div>
-        <div className="team-members grid grid-cols-2 sm:flex sm:flex-row sm:justify-center sm:flex-wrap sm:gap-20 gap-2 w-full lg:w-1/2 ">
+        <div className="team-members grid grid-cols-2 sm:flex lg:flex lg:flex-row lg:justify-center lg:flex-wrap sm:flex-row sm:justify-center sm:flex-wrap lg:gap-20 sm:gap-20 gap-2 w-full lg:w-1/2 ">
 
           <div className="profile-card sm:w-48 sm:h-64 glass-morph p-4">
             <div className='h-3/4 w-full relative'>
