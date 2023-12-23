@@ -33,7 +33,8 @@ const Events = () => {
               clickable: true,
           }}
           mousewheel={{
-              clickable: true
+              clickable: true,
+              forceToAxis: true
           }}
           speed={500}
           spaceBetween={30}

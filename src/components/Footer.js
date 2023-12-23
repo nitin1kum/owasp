@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className='text-center text-xs border-t-[1px]  lg:px-16 border-white py-2 px-6 whitespace-nowrap w-full'>Copyright © {new Date().getFullYear()}, all rights reserved by OWASP chapter MANIT</p>
+      <p className='text-center text-xs border-t-[1px]  lg:px-16 border-white py-2 px-3 whitespace-nowrap w-full'>Copyright © {new Date().getFullYear()}, all rights reserved by <br />OWASP chapter MANIT</p>
     </div>
   )
 }

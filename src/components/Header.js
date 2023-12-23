@@ -17,7 +17,7 @@ const Header = () => {
             <li className='nav-item relative cursor-pointer flex justify-center items-center gap-2 border-b-4 border-transparent px-2 hover:border-white transition-all py-1 duration-500' onClick={e=>{
               setEvents(!events);
             }}>Events<GoChevronDown className={events ? "rotate-180 transition-all duration-500" : "rotate-0 transition-all duration-500"} />
-              <ul className={events ? 'absolute mt-12 top-0 max-h-96 overflow-hidden transition-all duration-1000 ease-in-out glass-morph px-4 ' : 'absolute mt-12 top-0 max-h-0 overflow-hidden transition-all duration-1000 ease-in-out glass-morph px-4 '}>
+              <ul className={events ? 'absolute mt-12 top-0 max-h-96 overflow-hidden transition-all duration-1000 ease-in-out glass-morph px-4 ' : 'absolute mt-12 top-0 max-h-0 overflow-hidden border-none transition-all duration-1000 ease-in-out glass-morph px-4 '}>
                 <li className='m-2 w-max '><Link to='/events'>Past Events</Link></li>
                 <li className='m-2 w-max'><Link to='/upcoming'>Upcoming Events</Link></li>
               </ul>

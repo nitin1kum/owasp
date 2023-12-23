@@ -16,7 +16,7 @@ const Projects = () => {
                 <p className="project-details text-sm max-h-[100px] overflow-hidden">Lorem ny dkjfs skhks kfhks  ipsum dolor, sit amet consectetur adipisicing elit. Tempora facilis consequatur aperiam ratione eos officia atque voluptatibus enim praesentium vel! Voluptatibus et nisi ea, iusto molestias dolores voluptas aliquid quaerat mollitia nobis beatae, esse praesentium laudantium architecto quae?</p>
                 <span className='text-sm text-red-500 italic'>Read More</span>
               </div>
-              <button className='h-fit text-black font-bold hover:scale-95 box-shadow transition-all duration-500 w-fit py-1 px-5 mt-2 rounded-lg bg-white'>Register</button>
+              
             </div>
           </div>
           <div className='grid grid-rows-2 glass-morph project-container overflow-hidden text-white h-min'>
@@ -29,7 +29,7 @@ const Projects = () => {
                 <p className="project-details text-sm max-h-[100px] overflow-hidden">Lorem ny dkjfs skhks kfhks  ipsum dolor, sit amet consectetur adipisicing elit. Tempora facilis consequatur aperiam ratione eos officia atque voluptatibus enim praesentium vel! Voluptatibus et nisi ea, iusto molestias dolores voluptas aliquid quaerat mollitia nobis beatae, esse praesentium laudantium architecto quae?</p>
                 <span className='text-sm text-red-500 italic'>Read More</span>
               </div>
-              <button className='h-fit text-black font-bold hover:scale-95 box-shadow transition-all duration-500 w-fit py-1 px-5 mt-2 rounded-lg bg-white'>Register</button>
+              
             </div>
           </div>
           <div className='grid grid-rows-2 glass-morph project-container overflow-hidden text-white h-min'>
@@ -42,7 +42,7 @@ const Projects = () => {
                 <p className="project-details text-sm max-h-[100px] overflow-hidden">Lorem ny dkjfs skhks kfhks  ipsum dolor, sit amet consectetur adipisicing elit. Tempora facilis consequatur aperiam ratione eos officia atque voluptatibus enim praesentium vel! Voluptatibus et nisi ea, iusto molestias dolores voluptas aliquid quaerat mollitia nobis beatae, esse praesentium laudantium architecto quae?</p>
                 <span className='text-sm text-red-500 italic'>Read More</span>
               </div>
-              <button className='h-fit text-black font-bold hover:scale-95 box-shadow transition-all duration-500 w-fit py-1 px-5 mt-2 rounded-lg bg-white'>Register</button>
+              
             </div>
           </div>
           <div className='grid grid-rows-2 glass-morph project-container overflow-hidden text-white h-min'>
@@ -55,7 +55,7 @@ const Projects = () => {
                 <p className="project-details text-sm max-h-[100px] overflow-hidden">Lorem ny dkjfs skhks kfhks  ipsum dolor, sit amet consectetur adipisicing elit. Tempora facilis consequatur aperiam ratione eos officia atque voluptatibus enim praesentium vel! Voluptatibus et nisi ea, iusto molestias dolores voluptas aliquid quaerat mollitia nobis beatae, esse praesentium laudantium architecto quae?</p>
                 <span className='text-sm text-red-500 italic'>Read More</span>
               </div>
-              <button className='h-fit text-black font-bold hover:scale-95 box-shadow transition-all duration-500 w-fit py-1 px-5 mt-2 rounded-lg bg-white'>Register</button>
+              
             </div>
           </div>
         </div>
