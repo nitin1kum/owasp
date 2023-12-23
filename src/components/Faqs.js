@@ -12,7 +12,7 @@ const Faqs = () => {
         <div className=' faqs-page lg:h-[calc(100vh-160.8px)] min-h-screen pt-20 bg-gradient-to-tr pb-5 from-blue-600 to-black'>
             <div className=' h-[95%] w-[95%] m-auto lg:grid lg:grid-cols-2 flex flex-col lg:gap-10 gap-6 p-6 glass-morph'>
                 <div className='relative flex h-72 lg:h-full w-full items-center justify-start p-6 lg:p-10'>
-                    <img className='absolute -z-10 inset-0 w-full h-full lg:object-cover object-cover  rounded-lg' src="./owasp/images/97bede65cebaf9444d1f1a4212b75204.jpg" alt="" />
+                    <img className='absolute -z-10 inset-0 w-full h-full lg:object-cover object-cover  rounded-lg' src=".images/97bede65cebaf9444d1f1a4212b75204.jpg" alt="" />
                     <div>
                         <p className='lg:text-[50px] text-[30px] capitalize query-text  text-white'>have a query ?</p>
                         <p className='text-white w-2/3'>Join with OWASP and experience the breeze of hackathon with us.</p>
