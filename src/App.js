@@ -11,6 +11,7 @@ import Projects from './components/Projects'
 import News from './components/News'
 import Faqs from './components/Faqs'
 import Team from './components/Team'
+import Schedule from './components/Schedule'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path='/project' element={<Projects/>}/>
           <Route path='/news' element={<News/>}/>
           <Route path='/faqs' element={<Faqs/>}/>
+          <Route path='/schedule' element={<Schedule/>}/>
         </Route>
       </Routes>
     </HashRouter>

@@ -1,14 +1,18 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import UpcomingEv from './UpcomingEv'
 import News from './News';
 import Faqs from './Faqs';
 import Projects from './Projects';
 import Team from './Team';
 import Mission from './Mission';
+import Schedule from './Schedule';
+import { motion, useScroll } from "framer-motion"
 
 const Home = () => {
   const [text, setText] = useState('')
+  const scroll = useRef(null);
   let i = 0, j = 0, clutter = '';
+
   const typeWriter = () => {
     let texts = ['Hacking', 'Cyber Security', 'Ethical Hacking'];
     setInterval(() => {
@@ -34,13 +38,15 @@ const Home = () => {
       setText(clutter)
     }, 200)
   }
+
+
   useEffect(() => {
     typeWriter();
   }, [])
 
-
   return (
-    <>
+
+    <div className='home-page' >
       <section className='first-section w-full h-screen relative flex items-center px-6 justify-center'>
         <div className="hero-heading">
           <div className=" text-white">
@@ -68,6 +74,12 @@ const Home = () => {
           <Projects />
         </div>
       </section>
+      <section className="projects-section w-full">
+        <div className=' bg-gradient-to-bl from-black to-blue-950 text-center whitespace-nowrap text-white py-6 font-semibold'>Schedule</div>
+        <div>
+          <Schedule/>
+        </div>
+      </section>
       <section className="news-section w-full">
         <div className=' bg-gradient-to-bl from-black to-blue-950 text-center whitespace-nowrap text-white py-6 font-semibold'>News</div>
         <div>
@@ -86,8 +98,9 @@ const Home = () => {
           <Faqs />
         </div>
       </section>
-    </>
+    </div>
+
   )
 }
 
-export default Home
+export default Home;

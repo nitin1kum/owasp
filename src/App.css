@@ -13,6 +13,7 @@ body,
 html {
     width: 100vw;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .logo{
@@ -194,4 +195,17 @@ html {
 .h-screen{
     min-height: 800px;
     max-height: 100vh;
+}
+
+.bg-clip-text{
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+.mission-design{
+    color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-size: 0;
+    background-repeat: no-repeat;
 }
