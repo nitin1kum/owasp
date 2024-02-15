@@ -11,6 +11,7 @@ function Item(props) {
         offset: ["start end", "center center"]
     });
 
+
     return (
         <li ref={scroll} className='border-l-8 relative my-2 max-w-96 flex border-black border-dashed justify-center items-center'>
             <motion.div className={scrollYProgress.current === 1 ? ' absolute checkpoint w-6 h-6 rounded-full bg-red-600 -left-4' : ' absolute checkpoint w-6 h-6 rounded-full bg-green-600 -left-4'}></motion.div>
@@ -34,11 +35,19 @@ const Schedule = (props) => {
         target: scroll,
         offset: ["start center", "end center"]
     });
+
+    useEffect(() => {
+        window.addEventListener('scroll', e => {
+            let r = document.querySelector(":root");
+            r.style.setProperty("--scroll", (scrollYProgress.current * 100 - 4)+ '%') ;
+        })
+
+    }, [])
     return (
         <div className='w-full h-auto  pt-16 pb-5 bg-gradient-to-tl from-blue-950 to-sky-600'>
             <div className="schedule flex justify-center m-auto px-4 lg:p-10">
                 <ul ref={scroll} className='relative' id='schedule-list'>
-                    <motion.i style={{ top: (scrollYProgress.current * 100 - 4) + '%' }} className='absolute transition-all duration-100 linear text-red-600 text-[40px] z-10 -left-4' id='location-icon'><IoLocationSharp /></motion.i>
+                    <motion.i className='scroller absolute transition-all duration-75 ease-linear text-red-600 text-[40px] z-10 -left-4' id='location-icon'><IoLocationSharp /></motion.i>
                     {ScheduleData.map((data, index) => {
                         return (<Item data={data} />)
                     })}

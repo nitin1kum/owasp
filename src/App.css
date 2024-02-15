@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    --bg-size : 0%;
+    --scroll : 0%
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -208,4 +213,12 @@ html {
     -moz-background-clip: text;
     background-size: 0;
     background-repeat: no-repeat;
+}
+
+.mission-text{
+    background-size: var(--bg-size);
+}
+
+.scroller{
+    top: var(--scroll);
 }

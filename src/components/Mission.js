@@ -1,5 +1,5 @@
 import { useScroll } from 'framer-motion'
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 
 const Mission = () => {
   const scroll = useRef(null);
@@ -7,20 +7,27 @@ const Mission = () => {
     target: scroll,
     offset: ['start end', 'start start']
   })
+  useEffect(() => {
+    window.addEventListener('scroll' ,e=>{
+      let r = document.querySelector(":root");
+      r.style.setProperty("--bg-size" , scrollYProgress.current*100 + '%')
+    })
+  }, [])
+  
   return (
     <div  className='w-full h-screen lg:h-[calc(100vh-160.8px)] pt-20 pb-5 bg-gradient-to-tl from-blue-950 to-sky-600'>
       <div ref={scroll} className="mission h-[95%] w-[95%] m-auto glass-morph py-6 px-4 lg:p-10">
         <div className='lg:my-10 my-5 w-full flex flex-col items-center'>
           <h1 className='text-black py-4 text-center text-[30px] italic query-text'>Our Vission</h1>
           <div className='relative'>
-            <div style={{backgroundSize: scrollYProgress.current*100 + '%'}} className='lg:text-[50px] m-auto text-[35px] bg-gradient-to-r lg:w-3/4 from-sky-400 to-sky-400 mission-design text-center absolute inset-0 h-full w-full'>No more insecure software.</div>
+            <div  className=' mission-text lg:text-[50px] m-auto transition-all duration-300 ease-in-out text-[35px] bg-gradient-to-r lg:w-3/4 from-sky-400 to-sky-400 mission-design text-center absolute inset-0 h-full w-full'>No more insecure software.</div>
             <p className='lg:text-[50px] m-auto text-[35px] text-transparent bg-white bg-clip-text text-center w-full lg:w-3/4'>No more insecure software.</p>
           </div>
         </div>
         <div className='lg:my-10 my-5 flex flex-col items-center'>
           <h1 className='text-black py-4 text-[30px] text-center italic query-text'>Our Mission</h1>
           <div className='relative'>
-          <div style={{backgroundSize: scrollYProgress.current*100 + '%'}} className='lg:text-[50px] m-auto lg:w-3/4 text-[35px] bg-gradient-to-r from-sky-400 to-sky-400 mission-design text-center absolute inset-0 h-full w-full'>To be the global open community that power secure software through education, tools and collaboration.</div>
+          <div  className='mission-text lg:text-[50px] m-auto lg:w-3/4 transition-all duration-200 ease-in-out text-[35px] bg-gradient-to-r from-sky-400 to-sky-400 mission-design text-center absolute inset-0 h-full w-full'>To be the global open community that power secure software through education, tools and collaboration.</div>
           <p className='lg:text-[50px] m-auto text-[35px] text-white text-center lg:w-3/4 w-full'>To be the global open community that power secure software through education, tools and collaboration.</p>
           </div>
         </div>
