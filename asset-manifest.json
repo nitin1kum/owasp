@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/owasp/static/css/main.7a7530c5.css",
-    "main.js": "/owasp/static/js/main.7b1fbd78.js",
+    "main.css": "/owasp/static/css/main.dabfcdad.css",
+    "main.js": "/owasp/static/js/main.8e780b10.js",
     "static/js/787.82a4331d.chunk.js": "/owasp/static/js/787.82a4331d.chunk.js",
     "static/media/big-data-resized.jpg": "/owasp/static/media/big-data-resized.0fd3b8df0b0454923cda.jpg",
     "static/media/4EF9526D-B554-3244-jpeg": "/owasp/static/media/4EF9526D-B554-3244-558B3BED15DEEF82.b124140751b7447a73dd.jpeg",
@@ -9,12 +9,12 @@
     "static/media/jpg": "/owasp/static/media/97bede65cebaf9444d1f1a4212b75204.9becbc73682406cf9d4c.jpg",
     "static/media/photo.jpg": "/owasp/static/media/photo.2f0d9401e2fbffb94849.jpg",
     "index.html": "/owasp/index.html",
-    "main.7a7530c5.css.map": "/owasp/static/css/main.7a7530c5.css.map",
-    "main.7b1fbd78.js.map": "/owasp/static/js/main.7b1fbd78.js.map",
+    "main.dabfcdad.css.map": "/owasp/static/css/main.dabfcdad.css.map",
+    "main.8e780b10.js.map": "/owasp/static/js/main.8e780b10.js.map",
     "787.82a4331d.chunk.js.map": "/owasp/static/js/787.82a4331d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a7530c5.css",
-    "static/js/main.7b1fbd78.js"
+    "static/css/main.dabfcdad.css",
+    "static/js/main.8e780b10.js"
   ]
 }
